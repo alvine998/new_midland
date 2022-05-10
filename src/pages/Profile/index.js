@@ -1,16 +1,16 @@
 import React from 'react';
 import Sidebar from '../../components/Sidebar';
 
-const Home = () => {
+const Profile = () => {
     return ( 
         <div style={{overflow:"hidden"}}>
             <div className='row'>
                 <div className='col-md-2'>
-                    <Sidebar home/>
+                    <Sidebar profile/>
                 </div>
                 <div className='col-md'>
                     <p>
-                        Ini Home
+                        Ini Profile
                     </p>
                 </div>
             </div>
@@ -18,4 +18,4 @@ const Home = () => {
      );
 }
 
-export default Home;
+export default Profile;
