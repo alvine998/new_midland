@@ -31,7 +31,7 @@ const Sidebar = (props) => {
                             <a className={props.invest ? 'coloring active' : "coloring"} href='#'>Investment</a>
                         </li>
                         <li className='over-height'>
-                            <a className={props.contact ? 'coloring active' : "coloring"} href='#'>Contact Us</a>
+                            <a className={props.contact ? 'coloring active' : "coloring"} href='/contact'>Contact Us</a>
                         </li>
                         <li className='over-height'>
                             <a className={props.faq ? 'coloring active' : "coloring"} href='#'>FAQ</a>
