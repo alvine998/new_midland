@@ -1,15 +1,22 @@
+/* Add custom font */
+@font-face {
+    font-family: 'poppins';
+    src: url('../assets/fonts/Poppins/Poppins-Regular.ttf');
+}
+
 /* Sidebar */
 
 .sider{
     background-color: black;
     height: 100vh;
     padding: 20px;
-    width: 15%;
+    width: 17%;
     position: fixed;
 }
 
 a{
     text-decoration: none;
+    font-family: 'poppins';
 }
 
 .coloring{
@@ -48,6 +55,10 @@ a{
     margin-right: auto;
 }
 
+ul{
+    list-style-type: none;
+}
+
 /* Footer */
 .footer-height{
     background-color: black;
@@ -57,7 +68,7 @@ a{
 }
 
 .footer-pad{
-    padding-left: 50px;
+    padding-left: 200px;
     padding-top: 20px;
 }
 
@@ -68,4 +79,9 @@ a{
 
 p{
     color: white;
+    font-family: 'poppins';
+}
+
+.footer-address{
+    font-size: small;
 }

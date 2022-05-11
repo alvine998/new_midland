@@ -16,7 +16,10 @@ const Sidebar = (props) => {
                             <a className={props.profile ? 'coloring active' : "coloring"} href='/profile'>Profile</a>
                         </li>
                         <li className='over-height'>
-                            <a className={props.cluster ? 'coloring active' : "coloring"} href='#'>Our Cluster</a>
+                            <a className={props.project ? 'coloring active' : "coloring"} href='#'>Our Projects</a>
+                        </li>
+                        <li className='over-height'>
+                            <a className={props.join ? 'coloring active' : "coloring"} href='#'>Join Us</a>
                         </li>
                     </ul>
                 </nav>

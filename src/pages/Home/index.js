@@ -36,12 +36,12 @@ const Home = () => {
                         </div>
 
                         <div style={{ paddingTop: 50 }}>
-                            <h2 className='subtitle'>BERITA</h2>
+                            <h2 className='subtitle'>Berita</h2>
                             <Card />
                         </div>
 
                         <div style={{ paddingTop: 50 }}>
-                            <h2 className='subtitle'>Proyek Kami</h2>
+                            <h2 className='subtitle'>Proyek Terbaru</h2>
                         </div>
                     </div>
                     <div style={{ paddingTop: 50 }}>
