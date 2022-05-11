@@ -1,6 +1,7 @@
 import React from 'react';
 import { logo } from '../assets';
 import './style.css';
+import {FaInstagram, FaYoutube, FaWhatsapp} from 'react-icons/fa';
 
 const Sidebar = (props) => {
     return (
@@ -20,6 +21,23 @@ const Sidebar = (props) => {
                         </li>
                         <li className='over-height'>
                             <a className={props.join ? 'coloring active' : "coloring"} href='#'>Join Us</a>
+                        </li>
+                        <li className='over-height'>
+                            <a className={props.invest ? 'coloring active' : "coloring"} href='#'>Investment</a>
+                        </li>
+                        <li className='over-height'>
+                            <a className={props.contact ? 'coloring active' : "coloring"} href='#'>Contact Us</a>
+                        </li>
+                        <li className='over-height'>
+                            <a className={props.faq ? 'coloring active' : "coloring"} href='#'>FAQ</a>
+                        </li>
+                        <li className='over-height'>
+                            <a className="coloring-fa" href='#'>Social Media</a>
+                            <div className='row'>
+                                <div className='col-md-2'><FaInstagram className='coloring-fa'/></div>
+                                <div className='col-md-2'><FaYoutube className='coloring-fa'/></div>
+                                <div className='col-md-2'><FaWhatsapp className='coloring-fa'/></div>
+                            </div>
                         </li>
                     </ul>
                 </nav>

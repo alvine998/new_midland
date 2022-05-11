@@ -37,11 +37,23 @@ const Home = () => {
 
                         <div style={{ paddingTop: 50 }}>
                             <h2 className='subtitle'>Berita</h2>
-                            <Card />
                         </div>
 
                         <div style={{ paddingTop: 50 }}>
                             <h2 className='subtitle'>Proyek Terbaru</h2>
+                            <center>
+                                <div className='row'>
+                                        <div className='col-md'>
+                                            <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Warakas 7" location="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                        </div>
+                                        <div className='col-md'>
+                                            <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Swasembada 5" location="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                        </div>
+                                        <div className='col-md'>
+                                            <Card source="https://dummyimage.com/400x300/000/fff" title="Mini Cluster Cikarang" location="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                        </div>
+                                </div>
+                            </center>
                         </div>
                     </div>
                     <div style={{ paddingTop: 50 }}>

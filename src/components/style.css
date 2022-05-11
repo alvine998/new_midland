@@ -59,6 +59,19 @@ ul{
     list-style-type: none;
 }
 
+.coloring-fa{
+    color: #e4d00a;
+    transition: all 0.5s ease;
+    opacity: 0.7;
+    width: 20px;
+    height: 20px;
+}
+
+.coloring-fa:hover{
+    color: #e4d00a;
+    opacity: 1;
+}
+
 /* Footer */
 .footer-height{
     background-color: black;
@@ -84,4 +97,19 @@ p{
 
 .footer-address{
     font-size: small;
+}
+
+/* Card */
+.card{
+    margin-top: 20px;
+    width: 18rem;
+}
+
+.card-text{
+    color: black;
+}
+
+.card-img-zoom{
+    width: 700px;
+    height: 550px;
 }
