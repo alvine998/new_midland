@@ -16,7 +16,7 @@ const Card = (props) => {
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">{props.title}</h5>
-                    <p class="card-text">{props.location}</p>
+                    <p class="card-text">{props.comment}</p>
                     <a href="#" class="btn btn-warning w-100">Lihat</a>
                 </div>
             </div>

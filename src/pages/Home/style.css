@@ -6,12 +6,17 @@
     height: 100vh;
 }
 
-h2{
-    color: white;
-}
-
 .subtitle{
     text-align: center;
     font-family: 'poppins';
     font-size: 30pt;
+}
+
+.card-group{
+    align-items: center;
+    justify-content: center;
+}
+
+.other-news{
+    margin-top: 20px;
 }

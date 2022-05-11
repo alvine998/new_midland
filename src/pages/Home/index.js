@@ -6,7 +6,7 @@ import './style.css';
 
 const Home = () => {
     return (
-        <div style={{ overflow: "hidden", backgroundColor: "#666464" }}>
+        <div style={{ overflow: "hidden" }}>
             <div className='row'>
                 <div className='col-md-2 height-100'>
                     <Sidebar home />
@@ -37,23 +37,49 @@ const Home = () => {
 
                         <div style={{ paddingTop: 50 }}>
                             <h2 className='subtitle'>Berita</h2>
+                            <div className='card-group'>
+                                <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Warakas 7" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Warakas 7" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Warakas 7" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Warakas 7" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Warakas 7" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Warakas 7" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                            </div>
+                            <center className='other-news'>
+                                <a href="#">Lihat berita lainnya ...</a>
+                            </center>
                         </div>
+
 
                         <div style={{ paddingTop: 50 }}>
                             <h2 className='subtitle'>Proyek Terbaru</h2>
                             <center>
                                 <div className='row'>
-                                        <div className='col-md'>
-                                            <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Warakas 7" location="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
-                                        </div>
-                                        <div className='col-md'>
-                                            <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Swasembada 5" location="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
-                                        </div>
-                                        <div className='col-md'>
-                                            <Card source="https://dummyimage.com/400x300/000/fff" title="Mini Cluster Cikarang" location="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
-                                        </div>
+                                    <div className='col-md'>
+                                        <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Warakas 7" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                    </div>
+                                    <div className='col-md'>
+                                        <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Swasembada 5" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                    </div>
+                                    <div className='col-md'>
+                                        <Card source="https://dummyimage.com/400x300/000/fff" title="Mini Cluster Cikarang" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                    </div>
                                 </div>
                             </center>
+                        </div>
+
+                        <div style={{ paddingTop: 50 }}>
+                            <h2 className='subtitle'>Galeri Youtube Kami</h2>
+                            <div className='row' style={{ marginTop: 20 }}>
+                                <div className='col-md'>
+                                    <iframe className='w-100' height="315" src="https://www.youtube.com/embed/JvXU4tCCxyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe className='w-100' height="315" src="https://www.youtube.com/embed/FTHSt4B_vMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div className='col-md'>
+                                    <iframe className='w-100' height="315" src="https://www.youtube.com/embed/hCaVtdhe2v0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe className='w-100' height="315" src="https://www.youtube.com/embed/-WQnr8_TegY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div style={{ paddingTop: 50 }}>
