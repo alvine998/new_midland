@@ -1,26 +1,28 @@
 import React from 'react';
+import Card from '../../components/Card';
+import Footer from '../../components/Footer';
 import Sidebar from '../../components/Sidebar';
 import './style.css';
 
 const Home = () => {
     return (
-        <div style={{ overflow: "hidden" }}>
+        <div style={{ overflow: "hidden", backgroundColor: "#666464" }}>
             <div className='row'>
-                <div className='col-md-2'>
+                <div className='col-md-2 height-100'>
                     <Sidebar home />
                 </div>
                 <div className='col-md'>
-                    <div className="upper w-100">
+                    <div className="upper">
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="..."/>
+                                    <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="..." />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="..."/>
+                                    <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="..." />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="..."/>
+                                    <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="..." />
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -32,6 +34,18 @@ const Home = () => {
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
+
+                        <div style={{ paddingTop: 50 }}>
+                            <h2 className='subtitle'>BERITA</h2>
+                            <Card />
+                        </div>
+
+                        <div style={{ paddingTop: 50 }}>
+                            <h2 className='subtitle'>Proyek Kami</h2>
+                        </div>
+                    </div>
+                    <div style={{ paddingTop: 50 }}>
+                        <Footer />
                     </div>
                 </div>
             </div>

@@ -4,7 +4,8 @@
     background-color: black;
     height: 100vh;
     padding: 20px;
-    max-width: none;
+    width: 15%;
+    position: fixed;
 }
 
 a{
@@ -15,7 +16,7 @@ a{
     color: #e4d00a;
     font-size: large;
     font-weight: bold;
-    transition: 0.3s all;
+    transition: all 0.5s ease;
     opacity: 0.7;
     border-bottom: 0px solid #fff;
     border-bottom-width: 0%;
@@ -27,7 +28,6 @@ a{
 
 .coloring:hover{
     color: #e4d00a;
-    transition: 0.3s;
     opacity: 1;
     border-bottom: 1px solid #fff;
     padding: 0 0 4px;
@@ -46,4 +46,26 @@ a{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Footer */
+.footer-height{
+    background-color: black;
+    height: 200px;
+    margin-left: -50px;
+    width: 120%;
+}
+
+.footer-pad{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.footer-img{
+    width: 100px;
+    height: 150px;
+}
+
+p{
+    color: white;
 }

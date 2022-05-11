@@ -1,5 +1,17 @@
 .upper{
     padding: 20px;
-    background-color: #666464;
+}
+
+.height-100{
     height: 100vh;
+}
+
+h2{
+    color: white;
+}
+
+.subtitle{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30pt;
 }
