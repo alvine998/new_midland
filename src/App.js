@@ -9,8 +9,8 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <BrowserRouter basename="/new_midlands">
-      <Routes>
+    <BrowserRouter>
+      <Routes basename="/new_midlands">
         <Route path='/' element={<Home/>} />
         <Route path='/profile' element={<Profile/>} />
         <Route path='/contact' element={<Contact/>} />
