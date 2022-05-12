@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/new_midlands">
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/profile' element={<Profile/>} />
