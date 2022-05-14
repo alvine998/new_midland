@@ -25,6 +25,9 @@ const Sidebar = (props) => {
                             <a className={props.projects ? 'coloring active' : "coloring"} href='/projects'>Our Projects</a>
                         </li>
                         <li className='over-height'>
+                            <a className={props.teams ? 'coloring active' : "coloring"} href='#teams'>Our Teams</a>
+                        </li>
+                        <li className='over-height'>
                             <a className={props.join ? 'coloring active' : "coloring"} href='#'>Career</a>
                         </li>
                         <li className='over-height'>
