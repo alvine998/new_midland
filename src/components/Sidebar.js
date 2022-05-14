@@ -19,13 +19,13 @@ const Sidebar = (props) => {
                             <a className={props.profile ? 'coloring active' : "coloring"} href='/profile'>Profile</a>
                         </li>
                         <li className='over-height'>
-                            <a className={props.news ? 'coloring active' : "coloring"} href='#'>News</a>
+                            <a className={props.news ? 'coloring active' : "coloring"} href='/news'>News</a>
                         </li>
                         <li className='over-height'>
-                            <a className={props.project ? 'coloring active' : "coloring"} href='#'>Our Projects</a>
+                            <a className={props.projects ? 'coloring active' : "coloring"} href='/projects'>Our Projects</a>
                         </li>
                         <li className='over-height'>
-                            <a className={props.join ? 'coloring active' : "coloring"} href='#'>Join Us</a>
+                            <a className={props.join ? 'coloring active' : "coloring"} href='#'>Career</a>
                         </li>
                         <li className='over-height'>
                             <a className={props.invest ? 'coloring active' : "coloring"} href='#'>Investment</a>
