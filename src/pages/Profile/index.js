@@ -1,5 +1,6 @@
 import React from 'react';
 import { company, logo, misi, visi } from '../../assets';
+import Card from '../../components/Card';
 import Footer from '../../components/Footer';
 import Sidebar from '../../components/Sidebar';
 import './style.css'
@@ -32,8 +33,8 @@ const Profile = () => {
                             </div>
                         </div>
 
-                        <hr/>
-                        <div style={{paddingTop:50}}>
+                        <hr />
+                        <div style={{ paddingTop: 50 }}>
                             <div className='row'>
                                 <div className='col-md-4'>
                                     <img src={visi} className="img-visi-profile" />
@@ -41,18 +42,18 @@ const Profile = () => {
                                 <div className='col-md'>
                                     <h5 className='description-profile'>
                                         Menjadi salah satu dari 10 pengembang terbaik dan terpercaya di Indonesia
-                                        dengan menerapkan konsep syariah, serta mengedepankan kualitas, inovasi, dan 
-                                        ketepatan waktu demi memberikan pelayanan maksimal baik bagi investor maupun 
+                                        dengan menerapkan konsep syariah, serta mengedepankan kualitas, inovasi, dan
+                                        ketepatan waktu demi memberikan pelayanan maksimal baik bagi investor maupun
                                         konsumen
                                     </h5>
                                 </div>
                             </div>
-                            <div className='row' style={{paddingTop:20}}>
+                            <div className='row' style={{ paddingTop: 20 }}>
                                 <div className='col-md'>
                                     <h5 className='description-profile'>
-                                        - Menghadirkan properti dengan harga terjangkau dan berkualitas <br/>
+                                        - Menghadirkan properti dengan harga terjangkau dan berkualitas <br />
                                         - Menjadi solusi dalam mengatasi masalah sulitnya masyarakat dalam memiliki
-                                        hunian <br/>
+                                        hunian <br />
                                         - Mengedepankan nilai amanah dan jujur dalam memberikan pelayanan kepada
                                         investor dan konsumen
                                     </h5>
@@ -61,6 +62,41 @@ const Profile = () => {
                                     <img src={misi} className="img-visi-profile" />
                                 </div>
                             </div>
+                        </div>
+                        <hr />
+                        <div>
+                            <h2 style={{ textAlign: "center" }}>Team Kami</h2>
+                            <center>
+                                <div className='row'>
+                                    <div className='col-md'>
+                                        <Card source="https://dummyimage.com/400x300/000/fff" title="Ikna Abdul Kholik" comment="President Direktur Midland Properti" />
+                                    </div>
+                                    <div className='col-md'>
+                                        <Card source="https://dummyimage.com/400x300/000/fff" title="Muhammad Ihsan" comment="Supervisor Lapangan" />
+                                    </div>
+                                    <div className='col-md'>
+                                        <Card source="https://dummyimage.com/400x300/000/fff" title="Mini Cluster Cikarang" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                    </div>
+                                    <div className='col-md'>
+                                        <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Warakas 7" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                    </div>
+                                    <div className='col-md'>
+                                        <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Swasembada 5" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                    </div>
+                                    <div className='col-md'>
+                                        <Card source="https://dummyimage.com/400x300/000/fff" title="Mini Cluster Cikarang" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                    </div>
+                                    <div className='col-md'>
+                                        <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Warakas 7" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                    </div>
+                                    <div className='col-md'>
+                                        <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Swasembada 5" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                    </div>
+                                    <div className='col-md'>
+                                        <Card source="https://dummyimage.com/400x300/000/fff" title="Mini Cluster Cikarang" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                    </div>
+                                </div>
+                            </center>
                         </div>
                     </div>
                     <div style={{ paddingTop: 50 }}>

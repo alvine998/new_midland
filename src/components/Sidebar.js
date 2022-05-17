@@ -25,9 +25,6 @@ const Sidebar = (props) => {
                             <a className={props.projects ? 'coloring active' : "coloring"} href='/projects'>Our Projects</a>
                         </li>
                         <li className='over-height'>
-                            <a className={props.teams ? 'coloring active' : "coloring"} href='#teams'>Our Teams</a>
-                        </li>
-                        <li className='over-height'>
                             <a className={props.join ? 'coloring active' : "coloring"} href='#'>Career</a>
                         </li>
                         <li className='over-height'>
@@ -37,7 +34,7 @@ const Sidebar = (props) => {
                             <a className={props.contact ? 'coloring active' : "coloring"} href='/contact'>Contact Us</a>
                         </li>
                         <li className='over-height'>
-                            <a className={props.faq ? 'coloring active' : "coloring"} href='#'>FAQ</a>
+                            <a className={props.faq ? 'coloring active' : "coloring"} href='/faq'>FAQ</a>
                         </li>
                         <li className='over-height'>
                             <a className="coloring-fa" href='#'>Social Media</a>

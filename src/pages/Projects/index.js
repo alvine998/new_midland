@@ -33,6 +33,24 @@ const Projects = () => {
                                     <div className='col-md'>
                                         <Card source="https://dummyimage.com/400x300/000/fff" title="Mini Cluster Cikarang" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
                                     </div>
+                                    <div className='col-md'>
+                                        <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Warakas 7" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                    </div>
+                                    <div className='col-md'>
+                                        <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Swasembada 5" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                    </div>
+                                    <div className='col-md'>
+                                        <Card source="https://dummyimage.com/400x300/000/fff" title="Mini Cluster Cikarang" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                    </div>
+                                    <div className='col-md'>
+                                        <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Warakas 7" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                    </div>
+                                    <div className='col-md'>
+                                        <Card source="https://dummyimage.com/400x300/000/fff" title="Cluster Swasembada 5" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                    </div>
+                                    <div className='col-md'>
+                                        <Card source="https://dummyimage.com/400x300/000/fff" title="Mini Cluster Cikarang" comment="Lokasi : Jl.Warakas Gg.7, Tanjung Priok, Jakarta Utara" />
+                                    </div>
                                 </div>
                             </center>
                         </div>
